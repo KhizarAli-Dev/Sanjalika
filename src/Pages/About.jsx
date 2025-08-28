@@ -114,7 +114,7 @@ const About = () => {
             <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
               <div className="lg:w-1/2">
                 <img
-                  src="../../public/assets/images/4.jpg"
+                  src="/assets/images/4.jpg"
                   alt="Water filtration system"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
