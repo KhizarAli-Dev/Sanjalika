@@ -10,7 +10,7 @@ const About = () => {
       <div className="bg-gray-50">
         {/* Hero Section */}
         <div className="relative bg-blue-600 py-20 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('../../public/assets/images/5.jpg')] bg-cover bg-center opacity-30"></div>
+          <div className="absolute inset-0 bg-[url('/assets/images/5.jpg')] bg-cover bg-center opacity-30"></div>
           <div className="container mx-auto px-4 relative z-10 text-center">
             <h1 className="text-4xl md:text-5xl font-normal text-white mb-4">
               About Sanjalika
@@ -27,7 +27,7 @@ const About = () => {
             <div className="flex flex-col lg:flex-row gap-12 items-center">
               <div className="lg:w-1/2">
                 <img
-                  src="../../public/assets/images/2.jpg"
+                  src="/assets/images/2.jpg"
                   alt="Water park fun"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />
