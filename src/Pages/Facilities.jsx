@@ -8,42 +8,42 @@ const Facilities = () => {
       id: 1,
       title: "Lockers",
       description: "Keep your precious things in safe and secure vault.",
-      icon: "../../public/assets/images/facilities/lockers.png",
+      icon: "/assets/images/facilities/lockers.png",
       gradient: "bg-gradient-to-br from-blue-500 to-indigo-600"
     },
     {
       id: 2,
       title: "First Aid",
       description: "In case of any emergency, First Aid facilities is available for visitors.",
-      icon: "../../public/assets/images/facilities/hospital.png",
+      icon: "/assets/images/facilities/hospital.png",
       gradient: "bg-gradient-to-br from-red-500 to-pink-600"
     },
     {
       id: 3,
       title: "Canopy",
       description: "Shelter from sun shine and stay with your family and loved ones.",
-      icon: "../../public/assets/images/facilities/canopy.png",
+      icon: "/assets/images/facilities/canopy.png",
       gradient: "bg-gradient-to-br from-teal-500 to-cyan-600"
     },
     {
       id: 4,
       title: "Prayer Area",
       description: "Where you can perform your religious obligation.",
-      icon: "../../public/assets/images/facilities/prayer.png",
+      icon: "/assets/images/facilities/prayer.png",
       gradient: "bg-gradient-to-br from-amber-500 to-orange-600"
     },
     {
       id: 5,
       title: "Changing Rooms",
       description: "Separate changing and shower rooms are available for Ladies and Gents.",
-      icon: "../../public/assets/images/facilities/room.png",
+      icon: "/assets/images/facilities/room.png",
       gradient: "bg-gradient-to-br from-purple-500 to-violet-600"
     },
     {
       id: 6,
       title: "Tuck Shop",
       description: "Where you can enjoy snacks, cold drinks etc.",
-      icon: "../../public/assets/images/facilities/shop.png",
+      icon: "/assets/images/facilities/shop.png",
       gradient: "bg-gradient-to-br from-green-500 to-emerald-600"
     }
   ];
