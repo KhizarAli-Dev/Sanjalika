@@ -7,29 +7,30 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
 const Slider = () => {
-  const slides = [
-    {
-      id: 1,
-      image: "../../public/assets/images/slider/slider1.jpg",
-      alt: "First Slide",
-      heading1: "Welcome To",
-      heading2: "SANJALIKA WATER PARK",
-    },
-    {
-      id: 2,
-      image: "../../public/assets/images/slider/slider2.jpg",
-      alt: "Second Slide",
-      heading1: "Welcome To",
-      heading2: "SANJALIKA WATER PARK",
-    },
-    {
-      id: 3,
-      image: "../../public/assets/images/slider/slider3.jpg",
-      alt: "Third Slide",
-      heading1: "Welcome To",
-      heading2: "SANJALIKA WATER PARK",
-    },
-  ];
+const slides = [
+  {
+    id: 1,
+    image: "/assets/images/slider/slider1.jpg",
+    alt: "First Slide",
+    heading1: "Welcome To",
+    heading2: "SANJALIKA WATER PARK",
+  },
+  {
+    id: 2,
+    image: "/assets/images/slider/slider2.jpg",
+    alt: "Second Slide",
+    heading1: "Welcome To",
+    heading2: "SANJALIKA WATER PARK",
+  },
+  {
+    id: 3,
+    image: "/assets/images/slider/slider3.jpg",
+    alt: "Third Slide",
+    heading1: "Welcome To",
+    heading2: "SANJALIKA WATER PARK",
+  },
+];
+
 
   return (
     <div className="relative h-[700px] w-full">
