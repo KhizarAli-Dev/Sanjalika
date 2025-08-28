@@ -7,7 +7,7 @@ function RidesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-4 rounded-xl overflow-hidden shadow-2xl">
             <img 
-              src="../../../public/assets/images/main/img1.jpg" 
+              src="/assets/images/main/img1.jpg" 
               alt="Water park rides" 
               className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
             />
