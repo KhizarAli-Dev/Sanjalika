@@ -4,101 +4,101 @@ import Footer from "../Components/Layouts/Footer";
 import { Link } from "react-router-dom";
 
 const Rides = () => {
-  const rides = [
-    {
-      id: 1,
-      name: "TURBO CYCLONE",
-      image: "../../public/assets/images/rides/turbo.jpg.png",
-      description:
-        "Experience the thrilling twists and turns of our high-speed water coaster",
-    },
-    {
-      id: 2,
-      name: "Pendulam",
-      image: "../../public/assets/images/rides/Pendulam.png",
-      description:
-        "Swing back and forth on this exciting pendulum-style water ride",
-    },
-    {
-      id: 3,
-      name: "BOOMRENGO",
-      image: "../../public/assets/images/rides/Boomrengo.png",
-      description: "A bouncy, splashy adventure for the whole family",
-    },
-    {
-      id: 4,
-      name: "Big Monster",
-      image: "../../public/assets/images/rides/Big-Monstar.png",
-      description: "Our largest slide with multiple drops and surprises",
-    },
-    {
-      id: 5,
-      name: "Rainbow",
-      image: "../../public/assets/images/rides/RainBow.png",
-      description: "Colorful slides with gentle curves perfect for all ages",
-    },
-    {
-      id: 6,
-      name: "Free Fall",
-      image: "../../public/assets/images/rides/FreeFall.png",
-      description: "Plunge straight down at heart-stopping speeds",
-    },
-    {
-      id: 7,
-      name: "Wave Pool",
-      image: "../../public/assets/images/rides/WavePool.png",
-      description: "Experience ocean-like waves in our massive wave pool",
-    },
-    {
-      id: 8,
-      name: "Cyclone",
-      image: "../../public/assets/images/rides/Cyclone.png",
-      description: "Spin through swirling waters in this funnel-shaped ride",
-    },
-    {
-      id: 9,
-      name: "Aquatic Island + Lazy River",
-      image: "../../public/assets/images/rides/Aquatic-Island-Lazy-River.png",
-      description:
-        "Relaxing float through tropical landscapes and interactive water features",
-    },
-    {
-      id: 10,
-      name: "Rim Jhim",
-      image: "../../public/assets/images/rides/Rim-Jhim.png",
-      description: "Gentle water play area with sprinklers and small slides",
-    },
-    {
-      id: 11,
-      name: "Family Slides",
-      image: "../../public/assets/images/rides/FamilySlide.png",
-      description: "Race down side-by-side slides with your loved ones",
-    },
-    {
-      id: 12,
-      name: "The Jungle",
-      image: "../../public/assets/images/rides/The-Jungle.png",
-      description: "Adventure through tropical-themed water obstacles",
-    },
-    {
-      id: 13,
-      name: "Aqua Play",
-      image: "../../public/assets/images/rides/Aqua-Play.png",
-      description: "Interactive water playground for younger visitors",
-    },
-    {
-      id: 14,
-      name: "Mini Titanic Ship",
-      image: "../../public/assets/images/rides/Titanic-Ship.png",
-      description: "Climb aboard our ship-themed water play structure",
-    },
-    {
-      id: 15,
-      name: "Cyclone Pool",
-      image: "../../public/assets/images/rides/Cyclone-Pool.png",
-      description: "Whirlpool-style attraction with swirling currents",
-    },
-  ];
+const rides = [
+  {
+    id: 1,
+    name: "TURBO CYCLONE",
+    image: "/assets/images/rides/turbo.jpg.png",
+    description:
+      "Experience the thrilling twists and turns of our high-speed water coaster",
+  },
+  {
+    id: 2,
+    name: "Pendulam",
+    image: "/assets/images/rides/Pendulam.png",
+    description:
+      "Swing back and forth on this exciting pendulum-style water ride",
+  },
+  {
+    id: 3,
+    name: "BOOMRENGO",
+    image: "/assets/images/rides/Boomrengo.png",
+    description: "A bouncy, splashy adventure for the whole family",
+  },
+  {
+    id: 4,
+    name: "Big Monster",
+    image: "/assets/images/rides/Big-Monstar.png",
+    description: "Our largest slide with multiple drops and surprises",
+  },
+  {
+    id: 5,
+    name: "Rainbow",
+    image: "/assets/images/rides/RainBow.png",
+    description: "Colorful slides with gentle curves perfect for all ages",
+  },
+  {
+    id: 6,
+    name: "Free Fall",
+    image: "/assets/images/rides/FreeFall.png",
+    description: "Plunge straight down at heart-stopping speeds",
+  },
+  {
+    id: 7,
+    name: "Wave Pool",
+    image: "/assets/images/rides/WavePool.png",
+    description: "Experience ocean-like waves in our massive wave pool",
+  },
+  {
+    id: 8,
+    name: "Cyclone",
+    image: "/assets/images/rides/Cyclone.png",
+    description: "Spin through swirling waters in this funnel-shaped ride",
+  },
+  {
+    id: 9,
+    name: "Aquatic Island + Lazy River",
+    image: "/assets/images/rides/Aquatic-Island-Lazy-River.png",
+    description:
+      "Relaxing float through tropical landscapes and interactive water features",
+  },
+  {
+    id: 10,
+    name: "Rim Jhim",
+    image: "/assets/images/rides/Rim-Jhim.png",
+    description: "Gentle water play area with sprinklers and small slides",
+  },
+  {
+    id: 11,
+    name: "Family Slides",
+    image: "/assets/images/rides/FamilySlide.png",
+    description: "Race down side-by-side slides with your loved ones",
+  },
+  {
+    id: 12,
+    name: "The Jungle",
+    image: "/assets/images/rides/The-Jungle.png",
+    description: "Adventure through tropical-themed water obstacles",
+  },
+  {
+    id: 13,
+    name: "Aqua Play",
+    image: "/assets/images/rides/Aqua-Play.png",
+    description: "Interactive water playground for younger visitors",
+  },
+  {
+    id: 14,
+    name: "Mini Titanic Ship",
+    image: "/assets/images/rides/Titanic-Ship.png",
+    description: "Climb aboard our ship-themed water play structure",
+  },
+  {
+    id: 15,
+    name: "Cyclone Pool",
+    image: "/assets/images/rides/Cyclone-Pool.png",
+    description: "Whirlpool-style attraction with swirling currents",
+  },
+];
 
   return (
     <>
