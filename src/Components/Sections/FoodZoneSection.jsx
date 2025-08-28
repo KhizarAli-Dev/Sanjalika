@@ -8,7 +8,7 @@ function FoodZoneSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-4 lg:order-2 rounded-xl overflow-hidden shadow-2xl">
             <img 
-              src="../../../public/assets/images/main/foodzone.jpg" 
+              src="/assets/images/main/foodzone.jpg" 
               alt="Food zone at water park" 
               className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
             />
