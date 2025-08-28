@@ -4,38 +4,39 @@ import Footer from "../Components/Layouts/Footer";
 
 const Foods = () => {
   // Food categories data
-  const foodCategories = [
-    {
-      title: "FAST FOOD DEALS",
-      mainImage: "../../public/assets/images/foodzone/price.png",
-      items: [
-        { name: "Zinger Burger", image: "../../public/assets/images/fastfood/zinger.jpg" },
-        { name: "Beef Burger", image: "../../public/assets/images/fastfood/beef.jpg" },
-        { name: "Chicken Nuggets", image: "../../public/assets/images/fastfood/nuggets.jpg" },
-        { name: "French Fries", image: "../../public/assets/images/fastfood/fries.jpg" },
-      ],
-    },
-    {
-      title: "PAKISTANI FOOD",
-      mainImage: "../../public/assets/images/pakistanifood/main.jpg",
-      items: [
-        { name: "Biryani", image: "../../public/assets/images/pakistanifood/biryani.jpg" },
-        { name: "Pulao", image: "../../public/assets/images/pakistanifood/pulao.png" },
-        { name: "Haleem", image: "../../public/assets/images/pakistanifood/haleem.jpg" },
-        { name: "Nihari", image: "../../public/assets/images/pakistanifood/nihari.jpg" },
-      ],
-    },
-    {
-      title: "BEVERAGES",
-      mainImage: "../../public/assets/images/baverage/baverages.jpg",
-      items: [
-        { name: "Tea", image: "../../public/assets/images/baverage/tea.jpg" },
-        { name: "Coffee", image: "../../public/assets/images/baverage/coffee.jpg" },
-        { name: "Juice", image: "../../public/assets/images/baverage/JUICE.jpg" },
-        { name: "Cold Drinks", image: "../../public/assets/images/baverage/colddrinks.jpg" },
-      ],
-    },
-  ];
+ const foodCategories = [
+  {
+    title: "FAST FOOD DEALS",
+    mainImage: "/assets/images/foodzone/price.png",
+    items: [
+      { name: "Zinger Burger", image: "/assets/images/fastfood/zinger.jpg" },
+      { name: "Beef Burger", image: "/assets/images/fastfood/beef.jpg" },
+      { name: "Chicken Nuggets", image: "/assets/images/fastfood/nuggets.jpg" },
+      { name: "French Fries", image: "/assets/images/fastfood/fries.jpg" },
+    ],
+  },
+  {
+    title: "PAKISTANI FOOD",
+    mainImage: "/assets/images/pakistanifood/main.jpg",
+    items: [
+      { name: "Biryani", image: "/assets/images/pakistanifood/biryani.jpg" },
+      { name: "Pulao", image: "/assets/images/pakistanifood/pulao.png" },
+      { name: "Haleem", image: "/assets/images/pakistanifood/haleem.jpg" },
+      { name: "Nihari", image: "/assets/images/pakistanifood/nihari.jpg" },
+    ],
+  },
+  {
+    title: "BEVERAGES",
+    mainImage: "/assets/images/baverage/baverages.jpg",
+    items: [
+      { name: "Tea", image: "/assets/images/baverage/tea.jpg" },
+      { name: "Coffee", image: "/assets/images/baverage/coffee.jpg" },
+      { name: "Juice", image: "/assets/images/baverage/JUICE.jpg" },
+      { name: "Cold Drinks", image: "/assets/images/baverage/colddrinks.jpg" },
+    ],
+  },
+];
+
 
   return (
     <>
